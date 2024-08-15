@@ -1,0 +1,14 @@
+@StoreAPI_HostAddress = https://localhost:7132
+
+GET {{StoreAPI_HostAddress}}/weatherforecast/
+Accept: application/xml
+
+###
+
+GET {{StoreAPI_HostAddress}}/weatherforecast
+
+###
+
+GET {{StoreAPI_HostAddress}}/api/productcategories
+
+###
